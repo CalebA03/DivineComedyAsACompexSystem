@@ -34,7 +34,9 @@ From the repo root (with the venv active):
 ```
 This reads `divine_comedy.txt`, builds networks for Inferno, Purgatorio, Paradiso, computes centrality stats, and plots word-frequency distributions. Network visualisation in `display_network.py` is optional and commented out by default because it can be slow on large graphs—uncomment in `main.py` if needed.
 
-a nice one liner to run would be:
-```py -3.10 -m venv .venv && .\.venv\Scripts\python -m pip install -r requirements.txt && .\.venv\Scripts\python main.py```
+If you would like a simple one liner to run the code please see below:
+```powershell
+py -3.10 -m venv .venv && .\.venv\Scripts\python -m pip install -r requirements.txt && .\.venv\Scripts\python main.py
+```
 
 
