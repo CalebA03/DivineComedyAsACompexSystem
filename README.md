@@ -1,5 +1,7 @@
-# Divine Comedy As A Compex System (in review)
+# Divine Comedy As A Compex System
 This repository provides the computational analysis and visualisation code used in the accompanying paper. The project is organised as a reproducible Python codebase, with modular analysis and plotting components and scripts to reproduce the figures presented in the paper.
+
+Available at: https://doi.org/10.1145/3812538
 
 Divine Comedy Text Analysis
 ===================================
@@ -38,5 +40,4 @@ If you would like a simple one liner to run the code please see below:
 ```powershell
 py -3.10 -m venv .venv && .\.venv\Scripts\python -m pip install -r requirements.txt && .\.venv\Scripts\python main.py
 ```
-
 
